@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "sitegeist/kaleidoscope-valueobjects-migrations",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=8.2",
+        "neos/neos": "^8.3",
+        "sitegeist/kaleidoscope-valueobjects": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitegeist\\Kaleidoscope\\ValueObjects\\Migrations\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Sitegeist.Kaleidoscope.ValueObjects.Migrations"
+        }
+    }
+}
