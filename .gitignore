@@ -1,0 +1,5 @@
+**/lib/
+composer.lock
+Packages
+vendor
+**/cache/
